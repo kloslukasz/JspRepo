@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.stream.IntStream" %><%--
   Created by IntelliJ IDEA.
   User: acer
   Date: 12.05.2019
@@ -28,12 +28,11 @@
     }
 %>
 
-<%!
-private int[]
-%>
-
 <% out.print("Hello World!");%><br>
 <% out.print("Today is: ");%><br>
 <% out.print(new java.util.Date());%>
+
+
+
 </body>
 </html>
